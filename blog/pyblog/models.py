@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 class Article(models.Model):
+    article_title = models.CharField(max_length=50, default="Article title")
     article_text = models.CharField(max_length=500)
     pub_date = models.DateTimeField('Date published')
     likes = models.IntegerField(default=0)
