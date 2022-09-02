@@ -1,3 +1,4 @@
 env/
 blog/blog/__pycache__/
 blog/pyblog/__pycache__/
+blog/pyblog/migrations/__pycache__/
